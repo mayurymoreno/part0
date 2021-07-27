@@ -6,5 +6,5 @@ Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
 Server-->Browser: main.css
 Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
 Server-->Browser: main.js
-Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/new_note
+Browser->Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
 Server-->Browser: new_note
